@@ -3,7 +3,12 @@
   "extends": "./tsconfig.lua.json",
   "exclude": ["test"],
   "compilerOptions": {
-    "outDir": "lua/typescript"
+    "outDir": "lua/typescript",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": ["node", "jest"],
+    "strict": true,
+    "esModuleInterop": true
   },
   "tstl": {
     "luaTarget": "JIT",
@@ -12,6 +17,6 @@
     "luaPlugins": [],
     "luaLibImport": "inline"
   },
-  "include": ["src"]
+  "include": ["src"],
 }
 

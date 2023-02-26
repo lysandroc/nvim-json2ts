@@ -4,7 +4,7 @@
   "author": "Lysandro Carioca",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf lua && tstl -p tsconfig.build.json",
+    "build": "rm -rf lua/typescript && tstl -p tsconfig.build.json",
     "dev": "tstl -p tsconfig.build.json --watch",
     "lint": "eslint . --ext .ts",
     "test": "jest"
@@ -12,7 +12,7 @@
   "peerDependencies": {},
   "devDependencies": {
     "@types/jest": "^29.4.0",
-    "@types/node": "^18.7.18",
+    "@types/node": "^18.14.2",
     "@types/to-json-schema": "^0.2.1",
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",

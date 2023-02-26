@@ -1,1 +1,7 @@
-print(vim.fn.printf("Hello from %s", 'test')
+local M = {}
+
+M.ini = function()
+  print("test")
+end
+
+return M
