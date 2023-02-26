@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": ["esnext"],
     "moduleResolution": "node",
-    "types": ["node"],
+    "types": ["node", "jest"],
     "strict": true,
     "esModuleInterop": true
   }
