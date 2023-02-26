@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "extends": "./tsconfig.lua.json",
+  "exclude": ["test"],
+  "compilerOptions": {
+    "outDir": "lua/typescript"
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "noImplicitSelf": true,
+    "noResolvePaths": [],
+    "luaPlugins": [],
+    "luaLibImport": "inline"
+  },
+  "include": ["src"]
+}
+

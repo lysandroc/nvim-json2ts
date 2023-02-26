@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1677369090352" clover="3.2.0">
+  <project timestamp="1677369090352" name="All files">
+    <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="12" coveredelements="3" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/Users/lysandroc/projects/nvim-json2ts/src/index.ts">
+      <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
